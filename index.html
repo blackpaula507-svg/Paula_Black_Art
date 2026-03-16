@@ -169,13 +169,14 @@
             <div class="footer-section">
                 <h3>Follow Me</h3>
                 <div class="social-icons">
-                    <!--<a href="https://instagram.com" target="_blank" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>-->
                     <a href="https://www.instagram.com/paula_black_art?igsh=MW93ZmdvcTU0bXZreg=="
                         aria-label="Facebook">
                         <i class="fab fa-instagram"></i>
                     </a>
+                    <!--<a href="https://instagram.com" target="https://instagram.com/paula_black_art"
+                        aria-label="Facebook">
+                        <i class="fab fa-instagram"></i>
+                    </a>-->
                     <a href="mailto:paulamoralesborrero97@gmail.com" aria-label="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
@@ -245,7 +246,7 @@
             { id: 17, src: 'IMG/IMG_0041.JPG', title: 'Alucinando a Isabella', collection: 'collection2' }, // Misma colección que id 9
             { id: 18, src: 'IMG/IMG_0046.JPG', title: 'Alucinando a Isabella', collection: 'collection2' }, // Misma colección que id 11
             { id: 19, src: 'IMG/IMG_0051.JPG', title: '', collection: '' }, // Misma colección que id 7
-            { id: 20, src: 'IMG/IMG_0052.JPG', title: '', collection: '' },
+            { id: 20, src: 'IMG/IMG_0052.JPG', title: 'Vesania', collection: 'collection3' },
             { id: 21, src: 'IMG/IMG_0053.JPG', title: '', collection: '' }, // Misma colección que id 20
             { id: 22, src: 'IMG/IMG_0054.JPG', title: '', collection: '' }, // Misma colección que id 20
             { id: 23, src: 'IMG/IMG_0062.JPG', title: '', collection: '' },
@@ -253,30 +254,32 @@
             { id: 25, src: 'IMG/IMG_0065.JPG', title: '', collection: '' },
             { id: 26, src: 'IMG/IMG_0066.JPG', title: '', collection: '' }, // Misma colección que id 25
             { id: 27, src: 'IMG/IMG_0067.JPG', title: '', collection: '' },
-            { id: 28, src: 'IMG/IMG_0070.JPG', title: '', collection: '' }, // Misma colección que id 27
-            { id: 29, src: 'IMG/IMG_0078.JPG', title: '', collection: '' },
+            { id: 28, src: 'IMG/IMG_0070.JPG', title: 'Vesania', collection: 'collection3' }, // Misma colección que id 27
+            { id: 29, src: 'IMG/IMG_0078.JPG', title: 'Vesania', collection: 'collection3' },
             { id: 30, src: 'IMG/IMG_0089.JPG', title: '', collection: '' }, // Misma colección que id 29
-            { id: 31, src: 'IMG/IMG_0093.JPG', title: ' ', collection: '' },
-            { id: 32, src: 'IMG/IMG_0095.JPG', title: '', collection: '' },
-            { id: 33, src: 'IMG/IMG_0096.JPG', title: '', collection: '' },
-            { id: 34, src: 'IMG/IMG_0102.JPG', title: '', collection: '' },
-            { id: 35, src: 'IMG/IMG_0132.JPG', title: '', collection: '' },
-            { id: 36, src: 'IMG/IMG_0169.JPG', title: '', collection: '' },
-            { id: 37, src: 'IMG/IMG_0171.JPG', title: '', collection: '' },
-            { id: 38, src: 'IMG/IMG_0174.JPG', title: '', collection: '' },
-            { id: 39, src: 'IMG/IMG_0177.JPG', title: '', collection: '' },
-            { id: 40, src: 'IMG/IMG_0295.JPG', title: '', collection: '' },
-            { id: 41, src: 'IMG/IMG_0576.JPG', title: '', collection: '' },
-            { id: 42, src: 'IMG/IMG_0999.JPG', title: '', collection: '' },
-            { id: 43, src: 'IMG/IMG_1526.JPG', title: '', collection: '' }// Misma colección que id 31
+            { id: 31, src: 'IMG/IMG_0093.JPG', title: 'Estigmas', collection: 'collection4' },
+            { id: 32, src: 'IMG/IMG_0094.JPG', title: 'Estigmas', collection: 'collection4' },
+            { id: 33, src: 'IMG/IMG_0095.JPG', title: 'Estigmas', collection: 'collection4' },
+            { id: 34, src: 'IMG/IMG_0096.JPG', title: 'Vesania', collection: 'collection3' },
+            { id: 35, src: 'IMG/IMG_0102.JPG', title: 'Estigmas', collection: 'collection4' },
+            { id: 36, src: 'IMG/IMG_0132.JPG', title: 'Constelaciones', collection: 'collection5' },
+            { id: 37, src: 'IMG/IMG_0169.JPG', title: 'Constelaciones', collection: '' },
+            { id: 38, src: 'IMG/IMG_0171.JPG', title: '', collection: '' },
+            { id: 39, src: 'IMG/IMG_0174.JPG', title: '', collection: '' },
+            { id: 40, src: 'IMG/IMG_0177.JPG', title: 'Constelaciones', collection: 'collection5' },
+            { id: 41, src: 'IMG/IMG_0295.JPG', title: 'Constelaciones', collection: 'collection5' },
+            { id: 42, src: 'IMG/IMG_0576.JPG', title: 'Constelaciones', collection: 'collection5' },
+            { id: 43, src: 'IMG/IMG_0999.jpg', title: 'Constelaciones', collection: 'collection5' },
+            { id: 44, src: 'IMG/IMG_1526.JPG', title: 'Constelaciones', collection: 'collection5' }// Misma colección que id 31
         ];
 
         // URLs de colecciones (simuladas)
         const collectionUrls = {
             collection1: 'PAGES/collection1.html',
             collection2: 'PAGES/collection2.html',
-            collection3: '_blank',
-            collection4: '_blank',
+            collection3: 'PAGES/collection3.html',
+            collection4: 'PAGES/collection4.html',
+            collection5: 'PAGES/collection5.html',
         };
 
         // Generar galería
@@ -384,7 +387,7 @@
     </script>
 
     <!-- EmailJS SDK - Descomenta esta línea cuando configures tu cuenta -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> -->
     <script>
         (function () {
             emailjs.init("aqQ6rcHlRqCDlb5RL");
